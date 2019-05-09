@@ -36,3 +36,33 @@ def leapyear(year):
         else:
             print("not a leap year")
     return
+
+def two_table(n):
+        count = 1
+        ref = 0
+        while int(n)>= int(ref):
+            print(count)
+            count=count*2
+            ref=ref+1
+        return
+
+def harmonic_sum(N):
+     first = 1
+     second =1
+     third = 1
+     fourth = 2
+     ref=1
+     while int(N) >int(ref):
+            first=first*fourth+second*third;
+            second=second*fourth;
+            fourth=fourth+1;
+            ref=ref+1
+
+     print(first)
+     print(second)
+
+     return
+
+
+
+
